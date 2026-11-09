@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="12" fill="#071523"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="#c9a45c" stroke-width="1.5" opacity="0.55"/>
+  <text x="32" y="39" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-weight="600" fill="#f3f0e8" letter-spacing="0.5">MM</text>
+</svg>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Mahdi Mirzayi — Computer Science Student</title>
+    <meta
+      name="description"
+      content="Academic resume of Muhammad Mahdi Mirzayi, Computer Science student at Shahed University of Tehran. Course scores, technical skills, certificates, projects, and faculty recommenders."
+    />
+    <meta name="theme-color" content="#08192a" />
+    <meta name="color-scheme" content="dark light" />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("theme");
+          var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+          var theme = saved === "dark" || saved === "light" ? saved : (prefersDark ? "dark" : "light");
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (e) {}
+      })();
+    </script>
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Muhammad Mahdi Mirzayi — Computer Science Student" />
+    <meta
+      property="og:description"
+      content="Academic resume: education, key course scores, research interests, technical skills, certificates, and recommenders."
+    />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
